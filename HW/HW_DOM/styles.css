@@ -1,0 +1,14 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.container .img {
+  display: none;
+  width: 70%;
+  margin-bottom: 10px;
+}

@@ -40,6 +40,23 @@ function toAddItemIntoArr(arr) {
 
 console.log(toAddItemIntoArr(people));
 
+//or
+
+// function toAddItemIntoArr(arr) {
+//   for (let i = 0; i < arr.length; i++) {
+//     const element = arr[i];
+//     const femaleSex = element.sex;
+
+//     const isSexFemale = femaleSex === 'female';
+
+//     isSexFemale ? (element['comment'] = 'Good') : (element['comment'] = 'Nice');
+//   }
+
+//   return arr;
+// }
+
+// console.log(toAddItemIntoArr(people));
+
 // or
 
 // function toAddItemIntoArrVer2(arr) {
@@ -58,7 +75,7 @@ console.log(toAddItemIntoArr(people));
 
 // console.log(toAddItemIntoArrVer2(people));
 
-// or 
+// or
 
 // function toAddItemIntoArr(arr) {
 //   const updatedPeople = [];

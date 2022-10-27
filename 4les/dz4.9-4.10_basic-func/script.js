@@ -9,8 +9,7 @@ const calcResult = (a, b) => {
 console.log(calcResult(num1, num2));
 
 const getMinNum = (a, b) => {
-	const result = Math.min(a, b);
-	return result;
+	return Math.min(a, b);
 };
 
 console.log(getMinNum(num1, num2));

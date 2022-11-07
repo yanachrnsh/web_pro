@@ -6,8 +6,10 @@ let salaries = {
 
 let sum = 0;
 
-for (const key in salaries) {
-	sum += salaries[key];
+if (salaries !== undefined) {
+	for (const key in salaries) {
+		sum += salaries[key];
+	}
 }
 
 console.log(sum);

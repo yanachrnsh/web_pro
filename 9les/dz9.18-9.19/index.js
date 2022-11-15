@@ -47,3 +47,10 @@ const getData = async () => {
 };
 
 console.log(getData().then((arr) => arr.filter((item) => item.userId === 1)));
+
+// or
+
+let arrWithFilter = getData().then((arr) => {
+	const result = arr.filter((item) => item.userId === 1);
+	console.log(result);
+});

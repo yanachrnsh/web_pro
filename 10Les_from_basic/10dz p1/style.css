@@ -1,0 +1,48 @@
+.checkbox{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.checkbox input[type="checkbox"]{
+    width: 20px;
+    height: 30px;
+    margin: 0px; 
+    margin-left: 5px;
+    opacity: 0;
+}
+
+.checkbox .fake{
+    width: 50px;
+    height: 30px;
+    background-color: #d9dfde;
+    border-radius: 26%;
+    position: absolute;
+    top: 0;
+    left: -10;
+    pointer-events: none;
+    z-index: 1;
+}
+
+
+.checkbox .fake .circle{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ffff;
+    z-index: 2;
+    top: 2px;
+    left: 1px;
+    pointer-events: none;
+}
+
+
+.checkbox input[type="checkbox"]:checked+ .fake{
+    background-color: #a1e7db;
+}
+
+.checkbox input[type="checkbox"]:checked+ .fake .circle{
+    left: 23px;
+}
+
